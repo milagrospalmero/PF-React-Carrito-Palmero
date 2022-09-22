@@ -12,6 +12,7 @@ const App = () => {
       <Cardwidget/>
       </>
     );
+    
 }
 
 export default App;
