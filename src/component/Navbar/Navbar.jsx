@@ -2,8 +2,7 @@ import React from 'react';
 import Formulario from './formulario';
 import Dorpdown from './Dropdown';
 import Secciones from './Secciones';
-
-
+import Cardwidget from '../CardWidget/cardwidget';
 const Navbar = () => {
   const listDropdown = ["Hombre", "Mujer", "Niños", " Bebes"]
     return (
@@ -21,9 +20,11 @@ const Navbar = () => {
         </ul>
         <Formulario busqueda= "Buscar Producto"/>
       </div>
+      <Cardwidget />
     </div>
+    
   </nav>
-   
+  
   
         </>
     );
