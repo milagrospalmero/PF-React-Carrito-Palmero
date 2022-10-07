@@ -1,6 +1,7 @@
 import React from 'react';
+import Contador from '../../layouts/Cont/Contador';
 
-const ItemListContainer = ({ greeting }) => {
+const ItemDetail = ({ greeting }) => {
     
     return (
         <>
@@ -8,15 +9,15 @@ const ItemListContainer = ({ greeting }) => {
                 <img src="../../../img/ropa-mujer.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h4 className="card-text text-center">{greeting}</h4>
-                    <a href="#" className="btn btn-primary ">Informacion</a>
+                    <p className='card-text'> Detalle</p>
+                    <Contador/>
                </div>
         </div>
 
-
-         
+       
     
         </>
     );
 }
 
-export default ItemListContainer;
+export default ItemDetail;
