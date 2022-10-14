@@ -3,6 +3,7 @@
 [
     {
         "id":1 , 
+        "idCategoria": 1 ,
         "nombre": "Remera",
         "marca": "Nasa", 
         "colores": "Rojo/ Verde/ Blanco",
@@ -13,6 +14,7 @@
 },
     {
         "id":2 , 
+        "idCategoria": 1 ,
         "nombre": "Pantalon", 
         "marca": "Nasa", 
         "colores": "Rojo/ Verde/ Blanco",
@@ -23,6 +25,7 @@
 },
     {
         "id":3 , 
+        "idCategoria": 2 ,
         "nombre": "Musculosa", 
         "marca": "Nasa", 
         "colores": "Rojo/ Verde/ Blanco",
@@ -33,6 +36,7 @@
     },
     {
         "id":4 , 
+        "idCategoria": 2 ,
         "nombre": "Calza", 
         "marca": "Nasa",
         "colores": "Rojo/ Verde/ Blanco",
@@ -43,6 +47,40 @@
     },
     {
         "id":5 , 
+        "idCategoria": 3 ,
+        "nombre": "Remera Deportiva", 
+        "marca": "Nasa", 
+        "colores": "Rojo/ Verde/ Blanco",
+        "talles": "36 al 52",
+        "Precio": 560, 
+        "stock": 35,
+        "img":"ropa-mujer.jpg"
+    },
+    {
+        "id":6 , 
+        "idCategoria": 3 ,
+        "nombre": "Remera Deportiva", 
+        "marca": "Nasa", 
+        "colores": "Rojo/ Verde/ Blanco",
+        "talles": "36 al 52",
+        "Precio": 560, 
+        "stock": 35,
+        "img":"ropa-mujer.jpg"
+    },
+    {
+        "id":7 , 
+        "idCategoria": 4 ,
+        "nombre": "Remera Deportiva", 
+        "marca": "Nasa", 
+        "colores": "Rojo/ Verde/ Blanco",
+        "talles": "36 al 52",
+        "Precio": 560, 
+        "stock": 35,
+        "img":"ropa-mujer.jpg"
+    },
+    {
+        "id":8 , 
+        "idCategoria": 4 ,
         "nombre": "Remera Deportiva", 
         "marca": "Nasa", 
         "colores": "Rojo/ Verde/ Blanco",

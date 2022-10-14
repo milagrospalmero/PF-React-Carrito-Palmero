@@ -5,6 +5,11 @@ const ItemDetail = ({ greeting }) => {
     
     return (
         <>
+        <h1>producto</h1>
+
+
+
+
         <div className="card" style={{width: '18rem', margin: "0.5rem"}}>
                 <img src="../../../img/ropa-mujer.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">

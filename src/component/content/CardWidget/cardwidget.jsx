@@ -7,7 +7,7 @@ import { BsFillBasketFill } from "react-icons/bs";
 const Cardwidget = () => {
     return (
         <>
-       <BsFillBasketFill  size="50px" color="red" />
+       <BsFillBasketFill  size="30px" color="red" />
             
         </>
     );

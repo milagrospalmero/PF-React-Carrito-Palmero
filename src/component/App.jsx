@@ -6,9 +6,11 @@ import Footer from './content/footer/footer';
 import About from "./content/About/about";
 import Contacto from "./content/Contacto/contacto";
 import Carrito from './content/carrito/carrito';
-import ItemListContainer from './content/ItemListContainer/ItemListContainer';
+import Category from "./content/ItemListContainer/category";
 import ItemDetail from "./content/ItemListContainer/ItemDetail";
 import Producto from "./content/ItemListContainer/producto";
+import Home from "./content/ItemListContainer/home";
+
 
 const App = () => {
   
@@ -17,10 +19,11 @@ const App = () => {
         <BrowserRouter>
           <Navbar/>
           <Routes>
-              <Route path="/" element={<ItemListContainer/>}/>
-              <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
-              
+              <Route path="/" element={<Home/>}/>
+              <Route path="/category/:id" element={<Category/>}/>
+              <Route path="/" element={<Home/>}/>
               <Route path="/item/:id" element={<ItemDetail/>}/>
+              <Route path="/producto/:id" element={<Producto/>}/>
               <Route path="/about" element={<About/>}/>
               <Route path="/contacto" element={<Contacto/>}/>
               <Route path="/carrito" element={<Carrito/>}/>
