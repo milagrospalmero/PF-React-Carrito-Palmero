@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import Detalleproducto from './detalleproducto';
+import ItemDetail from '../ItemDetailContainer/ItemDetail';
+
 
 
 const Producto = () => {
@@ -22,7 +23,7 @@ const Producto = () => {
     return (
         
             <div className="card mb-3" style={{maxWidth: '540px'}}>
-                <Detalleproducto producto = {producto}/>
+                <ItemDetail producto = {producto}/>
             </div>
 
         

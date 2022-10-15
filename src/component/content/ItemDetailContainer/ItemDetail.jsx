@@ -1,6 +1,11 @@
 import React from 'react';
+import Contador from './Contador';
 
-const Detalleproducto = ({producto}) => {
+// itemDetailContainer
+
+const ItemDetail = ({producto, stock, }) => {
+    
+    
     return (
         <>
             <div className="row g-0">
@@ -15,7 +20,11 @@ const Detalleproducto = ({producto}) => {
                         <p className="card-text">Talles: {producto.talles}</p>
                         <p className="card-text">Stock: {producto.stock}</p>
                         <h5 className="card-text"> $ {producto.Precio}</h5>
-                        <button className='btn btn-dark'>Comprar</button>
+                        <Contador  initial={0}
+                        stock={stock}
+                  
+                  className="w-50" />
+                        
                         
                     </div>
                  </div>
@@ -24,4 +33,4 @@ const Detalleproducto = ({producto}) => {
     );
 }
 
-export default Detalleproducto;
+export default ItemDetail;

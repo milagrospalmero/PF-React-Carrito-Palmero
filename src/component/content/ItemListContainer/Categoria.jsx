@@ -3,15 +3,15 @@ import {useState, useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { consultarBDD } from '../../../utils/funciones';
 
+//itemListContainer
 
 
-
-const Category = () => {
+const Categoria = () => {
     const [productos, setProductos] = useState([]);
     const {id} = useParams()
     useEffect(() => {
        consultarBDD("../json/productos.json").then(productos => {
-        const productosCategoria = productos.filter(producto => producto.idCategoria == id)
+        const productosCategoria = productos.filter(producto => producto.idCategoria === parseInt (id))
         console.log(productosCategoria)
         const cardProductos = productosCategoria.map (producto =>
             <div className="card cardProducto"  key={ producto.id} >
@@ -30,7 +30,7 @@ const Category = () => {
     setProductos(cardProductos)
 
        } )
-    }, []);
+    }, [id]);
 
     return (
         <>
@@ -39,4 +39,4 @@ const Category = () => {
     );
 }
 
-export default Category;
+export default Categoria;
