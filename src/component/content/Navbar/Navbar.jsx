@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 
+import "../../../style/NavFoter.css";
 
 import Dorpdown from '../../layouts/Dropdown/Dropdown';
 import Secciones from '../../layouts/Secciones/Secciones';
@@ -12,7 +13,7 @@ const Navbar = ({contador}) => {
   const listDropdown = ["Hombre", "Mujer", "Niños", " Bebes"]
     return (
         <>
-                      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+                      <nav className="navbar navbar-expand-lg navbar-dark ">
                           <div className="container-fluid">
                             <img src="..\..\..\img\oip.jpg"  alt="" />
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label={320099}>

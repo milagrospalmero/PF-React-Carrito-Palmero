@@ -4,89 +4,316 @@
     {
         "id":1 , 
         "idCategoria": 1 ,
-        "nombre": "Remera",
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "nombre": "Camisa con Diseño",
+         "talles": "L",
+        "Precio": 4600, 
+        "stock": 12,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2FCAMISA%20CON%20DISE%C3%91O.jpg?alt=media&token=4553c05b-9e51-44ae-b933-6d6a0ecb7a0c"
 },
     {
         "id":2 , 
         "idCategoria": 1 ,
-        "nombre": "Pantalon", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "nombre": "Pantalón casual ", 
+        "talles": "40",
+        "Precio": 5300, 
+        "stock": 10,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20casual.jpg?alt=media&token=e2ba08e8-4a90-4348-bf3c-9dc4b35b3c5f"
 },
     {
         "id":3 , 
-        "idCategoria": 2 ,
-        "nombre": "Musculosa", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "idCategoria": 1 ,
+        "nombre": "Pantalón de Vestir ", 
+        "talles": "40",
+        "Precio": 5900, 
+        "stock": 7,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20de%20vestir.jpg?alt=media&token=9a4af11b-5361-4d08-91da-d179f96eb09b"
     },
     {
         "id":4 , 
-        "idCategoria": 2 ,
-        "nombre": "Calza", 
-        "marca": "Nasa",
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52", 
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
-    },
-    {
+        "idCategoria": 1 ,
+        "nombre": "Remera con diseño", 
+        "talles": "L", 
+        "Precio": 3100, 
+        "stock": 4,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fremera%20caricatura.jpg?alt=media&token=0464818c-e9b1-4019-a68b-8c5ce6599851"
+    },{
         "id":5 , 
-        "idCategoria": 3 ,
-        "nombre": "Remera Deportiva", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "idCategoria": 1 ,
+        "nombre": "Remera con diseño", 
+        "talles": "L", 
+        "Precio": 3200, 
+        "stock": 6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fremera%20con%20caricatura.jpg?alt=media&token=20f1f68b-2e69-4d36-a966-a90707545064"
     },
     {
         "id":6 , 
-        "idCategoria": 3 ,
-        "nombre": "Remera Deportiva", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "idCategoria": 1 ,
+        "nombre": "Remera con diseño", 
+        "talles": "L", 
+        "Precio": 3200, 
+        "stock": 5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fremera%20con%20dise%C3%B1o.jpg?alt=media&token=8b0ad326-5282-4784-8bf7-662fe38e72bf"
     },
     {
         "id":7 , 
-        "idCategoria": 4 ,
-        "nombre": "Remera Deportiva", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto ", 
+        "talles": "40",
+        "Precio": 6900, 
+        "stock": 6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto.jpg?alt=media&token=01992aed-1e6a-42ec-b17b-f217edd9144e"
     },
     {
         "id":8 , 
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto ", 
+        "talles": "40",
+        "Precio": 6900, 
+        "stock": 3,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto%202.jpg?alt=media&token=284cbdf8-679a-4515-af0f-eb859c79b9c3"
+    },
+    {
+        "id":9 , 
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto Deporte", 
+        "talles": "40",
+        "Precio": 3560, 
+        "stock":10,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto%20deporte%202.jpg?alt=media&token=6108a797-2189-491c-9d6b-8728568e170e"
+    },
+    {
+        "id":10 , 
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto Deporte", 
+        "talles": "40",
+        "Precio": 3560, 
+        "stock":9,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto%20deporte.jpg?alt=media&token=c2c3bed9-b5ab-4c58-94ec-0ac7e411f9e0"
+    },
+    {
+        "id":11 , 
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto Playa", 
+        "talles": "M",
+        "Precio": 4150, 
+        "stock":6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto%20playa%202.jpg?alt=media&token=2fe3093c-ead8-4c80-807d-2966e5d9d41f"
+    },
+    {
+        "id":12 , 
+        "idCategoria": 1 ,
+        "nombre": "Pantalon Corto Playa", 
+        "talles": "M",
+        "Precio": 4150, 
+        "stock":6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FHOMBRE%2Fpantalon%20corto%20playa.jpg?alt=media&token=165c168f-7745-41fb-9eda-44eb547a6654"
+    },
+   
+    {
+        "id":13 , 
+        "idCategoria": 2 ,
+        "nombre": "Camisa a Cuadros Roja y Negra ", 
+        "talles": "M",
+        "Precio": 1550, 
+        "stock":3,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2FCAMISA_CUADRITO.jpg?alt=media&token=d134e130-de12-4c73-87c4-433e16e793f5"
+    },
+    {
+        "id":14 , 
+        "idCategoria": 2 ,
+        "nombre": "Blusa Blanca  ", 
+        "talles": "L",
+        "Precio": 2650, 
+        "stock":6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fblusa%20blanca.jpg?alt=media&token=8dcee401-88b8-44e8-87a3-a0928b6cc0fb"
+    },
+    {
+        "id":15 , 
+        "idCategoria": 2 ,
+        "nombre": "Mono Corto Rayas   ", 
+        "talles": "M",
+        "Precio": 4500, 
+        "stock":6,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fmono%20corto.jpg?alt=media&token=6ea20382-3df8-4e2e-b969-9825303d5c39"
+    },
+    {
+        "id":16 , 
+        "idCategoria": 2 ,
+        "nombre": "Pantalón Casual con diseño    ", 
+        "talles": "42",
+        "Precio": 3900, 
+        "stock":5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fpantalon%20casual%20con%20dise%C3%B1o.jpg?alt=media&token=39970986-7650-4f62-a174-7a0648ca391c"
+    },
+    {
+        "id":17 , 
+        "idCategoria": 2 ,
+        "nombre": "Jean de Dama     ", 
+        "talles": "42",
+        "Precio": 6800, 
+        "stock":5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fjean%20dama.jpg?alt=media&token=2bf7ba21-b3c3-4f0f-832d-5478605b2b65"
+    },
+    {
+        "id":18 , 
+        "idCategoria": 2 ,
+        "nombre": "Jean Acampanado     ", 
+        "talles": "38",
+        "Precio": 7200, 
+        "stock":5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fjean%20acampanado.jpg?alt=media&token=289a2ac1-c8f7-4412-a83a-e21d79388b76"
+    },
+    {
+        "id":19 , 
+        "idCategoria": 2 ,
+        "nombre": "Vestido Casual ", 
+        "talles": "M",
+        "Precio": 3200, 
+        "stock":3,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FDAMA%2Fvestido%20casual.JPG?alt=media&token=9d7341bd-fab0-491e-a822-c85aaadb0643"
+    },
+    {
+        "id":20 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nena ", 
+        "talles": "5",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2FCONJUNTO%20DE%20ROPA%20PARA%20NI%C3%91AS.webp?alt=media&token=a32377f2-68f2-475a-8ac1-896f783d7877"
+    },
+    {
+        "id":21 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nena ", 
+        "talles": "4",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20de%20ni%C3%B1a.jpg?alt=media&token=49b337e6-51c2-492e-b87a-ca0e3a27cc78"
+    },
+    {
+        "id":22 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nena ", 
+        "talles": "3",
+        "Precio": 7800, 
+        "stock":5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20nena.jpg?alt=media&token=4d5cb29f-e032-479c-813d-2f5db59ac052"
+    },
+    {
+        "id":23 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nena ", 
+        "talles": "3",
+        "Precio": 7800, 
+        "stock":5,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20nena2.jpg?alt=media&token=736e77ef-ee79-4f86-9870-9268ce3a77f3"
+    },
+    {
+        "id":24 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nena ", 
+        "talles": "5",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20nena5.jpg?alt=media&token=e3dc23d7-375d-4078-a864-25919b4e0143"
+    },
+    {
+        "id":25 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nene", 
+        "talles": "5",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20de%20nene.jpeg?alt=media&token=3d66d0c4-6efe-49d0-b49d-ebe31e019813"
+    },
+    {
+        "id":26 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nene", 
+        "talles": "5",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20nen%202.jpeg?alt=media&token=9ce84d6b-b7fa-48e2-910a-69fe0dd06695"
+    },
+    {
+        "id":27 , 
+        "idCategoria": 3 ,
+        "nombre": "Conjunto de Nene", 
+        "talles": "5",
+        "Precio": 7800, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FNI%C3%91OS%2Fconjunto%20ropa%20para%20salir%20de%20nene.jpg?alt=media&token=25f7cb18-b65c-400e-a9d4-12902c7e4c39"
+    },
+    {
+        "id":28 , 
         "idCategoria": 4 ,
-        "nombre": "Remera Deportiva", 
-        "marca": "Nasa", 
-        "colores": "Rojo/ Verde/ Blanco",
-        "talles": "36 al 52",
-        "Precio": 560, 
-        "stock": 35,
-        "img":"ropa-mujer.jpg"
+        "nombre": "Mono de Bebe", 
+        "talles": "1",
+        "Precio": 2200, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fmono%20de%20bebe%202.jpg?alt=media&token=a394d5c2-f21c-4bbe-8f00-cecfbdf2c3a8"
+    },
+    {
+        "id":29 , 
+        "idCategoria": 4 ,
+        "nombre": "Mono de Bebe", 
+        "talles": "1",
+        "Precio": 2200, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fmono%20de%20bebe%203.jpg?alt=media&token=8240a31b-9730-474f-8977-81448a810f3b"
+    },
+    {
+        "id":30 , 
+        "idCategoria": 4 ,
+        "nombre": "Mono de Bebe", 
+        "talles": "1",
+        "Precio": 2200, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fmono%20de%20bebe%204.png?alt=media&token=bb48d3fa-7c42-4ef7-a5f7-4af46da34982"
+    },
+    {
+        "id":31 , 
+        "idCategoria": 4 ,
+        "nombre": "Mono de Bebe", 
+        "talles": "1",
+        "Precio": 2200, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fmono%20de%20bebe.png?alt=media&token=8272b539-748f-44a2-b5ee-be8587043a5e"
+    },
+    {
+        "id":32 , 
+        "idCategoria": 4 ,
+        "nombre": "Enterito de Bebe", 
+        "talles": "2",
+        "Precio": 2600, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fenterito%20largo%202.jpg?alt=media&token=4c20a96d-8166-4067-9223-ef13d730b9bb"
+    },
+    {
+        "id":33 , 
+        "idCategoria": 4 ,
+        "nombre": "Enterito de Bebe", 
+        "talles": "2",
+        "Precio": 2600, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fenterito%20largo%204.png?alt=media&token=f817f4e0-7b69-47c2-809c-13596c1eb898"
+    },
+    {
+        "id":34 , 
+        "idCategoria": 4 ,
+        "nombre": "Enterito de Bebe", 
+        "talles": "2",
+        "Precio": 2600, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fenterito%20largo.jpg?alt=media&token=8ca780f6-c3aa-4d7f-87f6-e7116a7dc211"
+    },
+    {
+        "id":35 , 
+        "idCategoria": 4 ,
+        "nombre": "Enterito de Bebe", 
+        "talles": "2",
+        "Precio": 2600, 
+        "stock":2,
+        "img":"https://firebasestorage.googleapis.com/v0/b/carrito-react-milagrospalmero.appspot.com/o/imagenes%2FBEBE%2Fenterito%20latgo%203.jpg?alt=media&token=60c56ad8-a800-4a86-85b7-42532b3bc336"
     }
 ]

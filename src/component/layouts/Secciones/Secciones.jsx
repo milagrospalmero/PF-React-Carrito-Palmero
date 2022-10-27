@@ -1,3 +1,4 @@
+import {memo} from "react"
 import { Link } from "react-router-dom";
 
 const Paginas = () => {
@@ -19,4 +20,4 @@ const Paginas = () => {
     );
 }
 
-export default Paginas;
+export default memo (Paginas);
