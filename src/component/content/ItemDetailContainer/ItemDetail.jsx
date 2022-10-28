@@ -23,7 +23,9 @@ const ItemDetail = ({producto, stock, }) => {
    
     return (
         <>
-            <div className="row g-0">
+            
+            
+            <div className="row g-0 ">
                 <div className="col-md-4">
                     <img src= {`${producto[1].img}`} className="img-fluid rounded-start  " alt="..." />
                 </div>
@@ -35,19 +37,23 @@ const ItemDetail = ({producto, stock, }) => {
                         <p className="card-text">Stock: {producto[1].stock}</p>
                         <h5 className="card-text">Precio:  $ {producto[1].precio}</h5>
 
-                        <div className='container'>
+                        <div className='d-flex justify-content-evenly '>
                         
-                            <button className='btn btn-ligt' onClick={()=> cantProducto("+")}>+</button>
+                            <button className='btn btn-dark' onClick={()=> cantProducto("+")}>+</button>
                             <p className='card-text'>{cantidad}</p>
-                            <button className='btn btn-ligt'onClick={()=> cantProducto("-")}>-</button>
+                            <button className='btn btn-dark'onClick={()=> cantProducto("-")}>-</button>
                         
                         </div>
-                    
-                        <button className='btn btn-dark' onClick={()=> agregarProducto(producto, cantidad) }>Agregar al Carrito </button>
-                                       
+                        <div>
+                            <p></p>
+                        </div>
+                        <div class="d-grid gap-5 col-12  "> 
+                            <button className='btn btn-dark ' onClick={()=> agregarProducto(producto, cantidad) }>Agregar al Carrito </button>
+                        </div>             
                     </div>
                  </div>
             </div>
+          
 
 
         </>

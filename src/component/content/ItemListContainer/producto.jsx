@@ -18,7 +18,7 @@ const Producto = () => {
 
     if (producto.length != 0) {
         return (
-            <div className="card mb-3" style={{maxWidth: '540px'}}>
+            <div className="card mb-5 position-absolute top-50 start-50 translate-middle" style={{maxWidth: '750px'}}>
             <ItemDetail producto = {producto}/>
             
           </div>

@@ -25,7 +25,9 @@ const Categoria = () => {
                      <p className="card-text">Talles: {producto[1].talle} </p>
                      <p className="card-text">Precio: ${producto[1].precio} </p>
                      <p className="card-text">Stock: {producto[1].stock} </p>
+                     <div class="d-grid gap-5 col-12 mx-auto"> 
                      <button   className='btn btn-dark' ><Link className='nav-link' to={`/producto/${producto[0]}`}>Ver Producto</Link></button>
+                    </div>
                  </div>
             </div>  ) 
     
