@@ -22,15 +22,17 @@ const Carrito = () => {
                                      
                                      <p className='card-text'>Cantidad: {producto.cantidad}</p>
                                      <p className="card-text">Precio: $ {producto.precio} </p>
-                                     <p className="card-text">Precio Total: $  {producto.precio * producto.cantidad}</p>
+                                     <p className="card-text">Sub Total: $  {producto.precio * producto.cantidad}</p>
                                      <div class="d-grid gap-5 col-12 mx-auto"> 
                                      <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar</button>
                                      </div>
                                  </div>
-                                 
+
+                                 <h5>Cantidad Total: $ </h5>
                                  <button className='btn btn-dark' onClick={() => clearCarrito (producto)}>Vaciar Carrito</button>
-                            
+                                 <Link className="btn btn-primary" to={"/chekout"}>Enviar Pedido</Link>
             </div>  
+            
             
             )
 
@@ -56,7 +58,7 @@ const Carrito = () => {
 
   </>
 
-    return app
+    return app 
 
 ;
     

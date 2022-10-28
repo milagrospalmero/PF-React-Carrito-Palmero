@@ -33,7 +33,7 @@ const App = () => {
                   
                     <Route path="/contacto" element={<Contacto/>}/>
                     <Route path="/confirmaConsulta" element={<ConfirmaConsulta/>}/>
-                    <Route path="/confirmaPedido" element={<ConfirmacionPedido/>}/>
+                    <Route path="/confirmacionPedido" element={<ConfirmacionPedido/>}/>
                     <Route path="/carrito" element={<Carrito/>}/>
                     <Route path= "*" element={<Error404/>}/>
                     

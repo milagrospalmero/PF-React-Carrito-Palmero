@@ -49,7 +49,7 @@ const Chekout = () => {
                 
                 <div class="d-grid gap-2 col-6 mx-auto">
                 
-                <Link className="btn text-dark bg-white" to={"/confirmaPedido"}>Enviar Pedido</Link>
+                <Link className="btn text-dark bg-white" to={"/confirmacionPedido"}>Confirmar Pedido</Link>
                 
                 
                 </div>
