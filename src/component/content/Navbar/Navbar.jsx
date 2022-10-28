@@ -27,8 +27,8 @@ const Navbar = ({contador}) => {
                     
                             </div>
                             <ul className="navbar-nav me-auto">
-                              <li className="nav-item">
-                              <Link className="nav-link active" to={"/carrito"}>{<Cardwidget/>}</Link>
+                              <li className="nav-item"><Link className="nav-link active" to={"/carrito"}>{<Cardwidget/>}</Link>
+                              
                               </li>
                               
                             </ul>

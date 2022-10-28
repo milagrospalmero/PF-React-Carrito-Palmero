@@ -1,9 +1,10 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState, Link} from 'react';
 import { CarritoContext } from './carritoContext';
 
 
+
 const Carrito = () => {
-    const {carrito, agregarProducto, quitarProducto}  = useContext(CarritoContext)
+    const {carrito, agregarProducto, quitarProducto, clearCarrito}  = useContext(CarritoContext)
     const [carritoLocal, setCarritoLocal] = useState([]);
     useEffect(() => {
         
@@ -21,8 +22,11 @@ const Carrito = () => {
                                      <p className="card-text">Precio Total: $  {producto.precio * producto.cantidad}</p>
                                      <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar</button>
                                  </div>
-                
-            </div>)
+                                 <button className='btn btn-dark' onClick={() => clearCarrito (producto)}>Vaciar Carrito</button>
+                                 
+                               
+            </div>  
+            )
 
                             
             
@@ -32,7 +36,17 @@ const Carrito = () => {
         
     }, [carrito]);
 
-    const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <h1>Carrito Vacio <button className='btn btn-dark'>Ir al Home</button></h1></>
+    const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <div className="row">
+    <div className="col-sm-11">
+      <div className="card w-100%">
+        <div className="card-body">
+          <h5 className="card-title">Carrito Vacio</h5>
+          
+          <a href="#" className="btn btn-primary">Ir al Home</a>
+        </div>
+      </div>
+    </div>
+  </div></>
 
     return app
 
