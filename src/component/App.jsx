@@ -10,8 +10,8 @@ import Carrito from './content/carrito/carrito';
 import Categoria from "./content/ItemListContainer/Categoria";
 import ConfirmacionPedido from "./Chekout/confirmacionPedido";
 
-import Producto from "./content/ItemListContainer/Producto";
-import Home from "./content/ItemListContainer/Home";
+import Producto from "./content/ItemListContainer/producto";
+import Home from "./content/ItemListContainer/home";
 import Detalleproducto from "./content/ItemDetailContainer/ItemDetail";
 import Error404 from "./content/Error404/Error404";
 import Chekout from "./Chekout/Chekout";
