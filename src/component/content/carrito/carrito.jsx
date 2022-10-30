@@ -28,9 +28,7 @@ const Carrito = () => {
                                      </div>
                                  </div>
 
-                                 <h5>Cantidad Total: $ </h5>
-                                 <button className='btn btn-dark' onClick={() => clearCarrito (producto)}>Vaciar Carrito</button>
-                                 <Link className="btn btn-primary" to={"/chekout"}>Enviar Pedido</Link>
+                                
             </div>  
             
             

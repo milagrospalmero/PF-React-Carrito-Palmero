@@ -15,6 +15,7 @@ import Home from "./content/ItemListContainer/Home";
 import Detalleproducto from "./content/ItemDetailContainer/ItemDetail";
 import Error404 from "./content/Error404/Error404";
 import Chekout from "./Chekout/Chekout";
+import CarritoCompleto from "./content/carrito/carritoCompleto";
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
                     <Route path="/confirmaConsulta" element={<ConfirmaConsulta/>}/>
                     <Route path="/confirmacionPedido" element={<ConfirmacionPedido/>}/>
                     <Route path="/carrito" element={<Carrito/>}/>
+                    <Route path="/carritoCompleto" element={<CarritoCompleto/>}/>
                     <Route path= "*" element={<Error404/>}/>
                     
                 </Routes>
